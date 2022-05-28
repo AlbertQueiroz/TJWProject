@@ -1,0 +1,9 @@
+ifce\edu\br\model\Aluno.class
+ifce\edu\br\model\Aula.class
+ifce\edu\br\model\Turma.class
+ifce\edu\br\code\JPATurma.class
+ifce\edu\br\utils\JPAUtil.class
+ifce\edu\br\model\Professor.class
+ifce\edu\br\code\JPAAula.class
+ifce\edu\br\code\JPAProfessor.class
+ifce\edu\br\code\JPAAluno.class
