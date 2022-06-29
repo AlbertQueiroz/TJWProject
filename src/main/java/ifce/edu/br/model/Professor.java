@@ -20,20 +20,20 @@ public class Professor {
 	@GeneratedValue
 	private Long id;
 	
-	@Column (name = "nome_professor")
-	private String nome;
+	@Column (name = "name_professor")
+	private String name;
 	
 	@OneToMany
-	private Collection<Turma> turmas = new ArrayList<Turma>();
+	private Collection<Lesson> classes = new ArrayList<Lesson>();
 	
 	// ------- Getters and Setters --------- 
 	
-	public Collection<Turma> getTurmas() {
-		return turmas;
+	public Collection<Lesson> getClasses() {
+		return classes;
 	}
 
-	public void setTurmas(Collection<Turma> turmas) {
-		this.turmas = turmas;
+	public void setClasses(Collection<Lesson> classes) {
+		this.classes = classes;
 	}
 
 	public Long getId() {
@@ -44,11 +44,11 @@ public class Professor {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String nome) {
+		this.name = name;
 	}
 }

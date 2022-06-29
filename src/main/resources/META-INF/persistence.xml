@@ -8,9 +8,9 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		
 		<class>ifce.edu.br.model.Professor</class>
-		<class>ifce.edu.br.model.Aula</class>
-		<class>ifce.edu.br.model.Turma</class>
-		<class>ifce.edu.br.model.Aluno</class>
+		<class>ifce.edu.br.model.Classroom</class>
+		<class>ifce.edu.br.model.Student</class>
+		<class>ifce.edu.br.model.Lesson</class>
 		
 		<properties>
 			<property
